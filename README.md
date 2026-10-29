@@ -28,7 +28,6 @@ I build autonomous robots end to end — from embedded control on Arduino and Ra
 | [UR5 Computed-Torque Control](https://github.com/harishvenky29/ur5-computed-torque-control) | 6-DOF UR5 arm with inverse kinematics and quintic trajectory planning; computed-torque control cuts tracking error by ~70% vs PID under payload and model error | MATLAB, Simulink |
 | [ROS 2 Office Mapping & Patrol](https://github.com/harishvenky29/ros2-office-slam-nav2) | TurtleBot3 explores an unknown office on its own with a custom frontier-exploration node, builds a LIDAR-only map with SLAM Toolbox, then localises with AMCL and runs a Nav2 patrol between rooms | ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo, Python |
 | [LLM_Robot](https://github.com/harishvenky29/LLM_Robot) | Voice-commanded home robot: Whisper turns speech into text, a local LLM (Ollama) turns it into actions, and YOLO handles perception for following people and avoiding obstacles, with Nav2 for navigation | ROS 2 Jazzy, Gazebo, Nav2, Whisper, Ollama, YOLO, Python |
-| Camera Vision → Robot Control | Uses a camera feed to detect targets and drive the robot in closed loop | ROS 2 Jazzy, OpenCV, Gazebo |
 | 4-DOF Gesture Pick & Place *(in progress)* | Gazebo arm mirrors your hand from a webcam and picks/places objects between trays on hand gestures | ROS 2, Gazebo, OpenCV, Python |
 
 ---
